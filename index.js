@@ -12,11 +12,11 @@ app.listen(3000, () => {
 const Discord = require('discord.js')
 const client = new Discord.Client()
 
-const prefix = "Your Prefix"
+const prefix = "."
 
 client.on("ready", () =>{
 console.log(`${client.user.username} is Online`)
-client.user.setActivity(`${prefix}help (ZombieX Sumbit Bot)`)
+client.user.setActivity(`تحت خدمة خبزه الخبوزي و دعيكان`)
 
 })
 
